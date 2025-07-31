@@ -1,4 +1,3 @@
-
 Heap-Management
 This project implements a basic Memory Management System in C using a heap simulation. It provides functions for dynamic memory allocation and deallocation using a custom-defined heap with a metadata structure for tracking memory blocks.
 
@@ -13,24 +12,3 @@ void *Allocate(size_t size_to_be_allocated) Allocates a block of memory of the s
 void Free(void *free_ptr) Frees the specified memory block and marks it as free (f). Calls the Merge() function to merge adjacent free memory blocks.
 void Merge() Merges adjacent free memory blocks into one larger block to reduce fragmentation.
 void DisplayHeap() Displays the current state of the heap, including block indices, sizes, and their status (free or allocated).
-About
-Virtual stimulation of heap using stack
-
-Resources
- Readme
- Activity
-Stars
- 0 stars
-Watchers
- 1 watching
-Forks
- 0 forks
-Report repository
-Releases
-No releases published
-Packages
-No packages published
-Languages
-C
-100.0%
-Footer
