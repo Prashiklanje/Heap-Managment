@@ -1,4 +1,5 @@
 Heap-Management
+
 This project implements a basic Memory Management System in C using a heap simulation. It provides functions for dynamic memory allocation and deallocation using a custom-defined heap with a metadata structure for tracking memory blocks.
 
 Features Heap Initialization: Initializes a heap of predefined size and tracks memory blocks with metadata. Memory Allocation: Allocates a requested memory size from the heap, splitting memory blocks when necessary. Memory Deallocation: Frees previously allocated memory and merges adjacent free memory blocks. Memory Visualization: Displays the current status of the heap, showing allocated and free memory blocks.
