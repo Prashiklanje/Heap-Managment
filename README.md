@@ -7,8 +7,8 @@ Files allocator.c: The main C file that contains the implementation of the memor
 
 Functions
 
-Initialize() Initializes the heap and sets up the first block of memory. This is done by assigning the size of the heap minus the size of the metadata block to the first block.
-void *Allocate(size_t size_to_be_allocated) Allocates a block of memory of the specified size. Splits the block if the memory block is larger than the requested size. Marks the allocated block as "allocated" (a).
-void Free(void *free_ptr) Frees the specified memory block and marks it as free (f). Calls the Merge() function to merge adjacent free memory blocks.
-void Merge() Merges adjacent free memory blocks into one larger block to reduce fragmentation.
-void DisplayHeap() Displays the current state of the heap, including block indices, sizes, and their status (free or allocated).
+1. Initialize() Initializes the heap and sets up the first block of memory. This is done by assigning the size of the heap minus the size of the metadata block to the first block.
+2. void *Allocate(size_t size_to_be_allocated) Allocates a block of memory of the specified size. Splits the block if the memory block is larger than the requested size. Marks the allocated block as "allocated" (a).
+3. void Free(void *free_ptr) Frees the specified memory block and marks it as free (f). Calls the Merge() function to merge adjacent free memory blocks.
+4. void Merge() Merges adjacent free memory blocks into one larger block to reduce fragmentation.
+5. void DisplayHeap() Displays the current state of the heap, including block indices, sizes, and their status (free or allocated).
